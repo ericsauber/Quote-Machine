@@ -2,7 +2,6 @@
 var forismaticAPI = 'https://api.forismatic.com/api/1.0/?method=getQuote&format=jsonp&lang=en&jsonp=?';
 
 $(document).ready(function() {
-    
       $('#newQuote').on("click", function() {
           $.getJSON(forismaticAPI, function(data) {
 
